@@ -39,10 +39,10 @@ const Testimonial = () => {
               quam! Nulla?
             </p>
           </div>
-          <div className="w-[536px] h-[234px] p-4 mx-auto gap-4 ">
+          <div className=" h-[234px]  ">
             <Carousel
               autoplay
-              className="h-[223px] bg-primary/10 "
+              className="grid grid-cols-1 sm:max-w-[600px]  h-[223px]  bg-primary/10 mx-auto"
               dotStyle={{
                 backgroundColor: "white",
                 border: "1px solid #ccc",
